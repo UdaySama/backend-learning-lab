@@ -3,13 +3,9 @@ def check_age(age):
         return "Adult"
     elif age >= 13 :
         return "Teenager"
-    elif age <= 13:
-        return "Child"
     else:
-        return 'Invalid'
+        return "Child"
 
-result = check_age(12)
-print(result)
 print(check_age(10))
 print(check_age(12))
 print(check_age(13))
